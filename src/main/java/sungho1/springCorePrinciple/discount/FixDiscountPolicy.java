@@ -1,5 +1,4 @@
 package sungho1.springCorePrinciple.discount;
-
 import sungho1.springCorePrinciple.member.Grade;
 import sungho1.springCorePrinciple.member.Member;
 
