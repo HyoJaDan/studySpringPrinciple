@@ -1,8 +1,10 @@
 package sungho1.springCorePrinciple.discount;
 
+import org.springframework.stereotype.Component;
 import sungho1.springCorePrinciple.member.Grade;
 import sungho1.springCorePrinciple.member.Member;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
     private int discountPercent = 10;
 
