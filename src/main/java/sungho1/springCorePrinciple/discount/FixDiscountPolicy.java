@@ -2,6 +2,7 @@ package sungho1.springCorePrinciple.discount;
 import sungho1.springCorePrinciple.member.Grade;
 import sungho1.springCorePrinciple.member.Member;
 
+
 public class FixDiscountPolicy implements DiscountPolicy{
     private int discountFixAmount=1000; //1000원 할인
 
